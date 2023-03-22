@@ -1,0 +1,33 @@
+<div id="card">
+  <h4 [ngStyle]="{color:'plum',fontStyle:'italic'}">{{personalSelect.greeting}}</h4>
+  <div id="flexBox">
+    <mat-form-field appearance="fill" class="flex1" 
+                    style="background-color: aquamarine;">
+      <mat-label>Select your sentiment:</mat-label>
+      <mat-select [(value)]="selectionSentiment">
+            <mat-option *ngFor="let x of sentimentSelect" [value]="x.txt">{{x.txt}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" class="flex2"
+                    style="background-color: aquamarine;">
+      <mat-label>Select Border Color </mat-label>
+      <mat-select [(value)]="selectionBorder">
+        <mat-option *ngFor="let x of borderSelect" [value]="x.colour">{{x.colour}}</mat-option>
+
+      </mat-select>  
+    </mat-form-field>
+    <mat-form-field appearance="fill" class="flex3"
+                    style="background-color: aquamarine;">
+      <mat-label>Select an Edge</mat-label>
+      <mat-select [(value)]="selectionEdge">
+        <mat-option  *ngFor="let x of borderEdge" value="x.edge">{{x.edge}}</mat-option>
+          
+      </mat-select>
+    </mat-form-field><br>
+
+    <button mat-raised-button (click)="createCard()" color="accent">
+      Click to create card</button><hr>
+      <p [innerHTML]="outCard" id="outid"></p>
+  </div>
+</div>
