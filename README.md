@@ -1,27 +1,7 @@
-# Json2App
+![Screenshot (2305)](https://user-images.githubusercontent.com/104863304/226938652-e375f64d-6b2d-461e-ad5e-b79878c8daa6.png)
+![Screenshot (2306)](https://user-images.githubusercontent.com/104863304/226938802-d51fe74c-a7b6-47cf-aa3d-6bc1dffc6dd2.png)
+![Screenshot (2307)](https://user-images.githubusercontent.com/104863304/226938926-c2569231-d288-496d-9e7f-525339efed81.png)
+![Screenshot (2308)](https://user-images.githubusercontent.com/104863304/226939048-ef639e10-0d7b-4e8c-a613-8920eabf9e70.png)
+![Screenshot (2309)](https://user-images.githubusercontent.com/104863304/226939154-e59a43bc-5fd3-49da-b25f-4382b0fcaf56.png)
+![Screenshot (2310)](https://user-images.githubusercontent.com/104863304/226939332-66002b45-cb89-48a9-9041-fab94cf0d05f.png)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.8.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
